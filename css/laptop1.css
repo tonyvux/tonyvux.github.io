@@ -1,0 +1,94 @@
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+  section > .container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Header */
+  header {
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../images/banner.jpg);
+    background-size: cover;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .banner-text {
+    margin-left: -80px;
+  }
+
+  /* Nav Bar */
+  #nav-bar .col-md {
+    font-size: 15px;
+    flex-shrink: 5;
+  }
+  #nav-bar a:link,
+  a:visited {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 0 0 0 10px;
+  }
+  .row {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .col-md {
+    padding-bottom: 10px;
+    /* padding-left: 30px; */
+  }
+  .col-md i {
+    font-size: 15px;
+  }
+  .bar-text {
+    margin-left: 0;
+    text-align: center;
+  }
+  .bar-text h1,
+  .bar-text span {
+    text-align: center;
+  }
+  /* Mục tiêu nghề nghiệp  */
+  .container-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  #target {
+    width: 100%;
+    font-size: 16px;
+    height: 100%;
+  }
+  #personal-info {
+    width: 100%;
+    font-size: 16px;
+    height: 100%;
+  }
+  /* Kinh nghiệm làm việc  */
+  .job-info {
+    display: grid !important;
+    grid-template-columns: repeat(3, 33%);
+    column-gap: 5px;
+    row-gap: 10px;
+  }
+  .info-all {
+    grid-template-columns: 65% 30%;
+  }
+  /* Chứng chỉ - Giải thưởng */
+  .cert {
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+  .icon-lamp {
+    margin-left: 75px;
+  }
+}
