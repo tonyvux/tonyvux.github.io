@@ -74,7 +74,7 @@
   /* Kinh nghiệm làm việc  */
   .job-info {
     display: grid !important;
-    grid-template-columns: repeat(3, 33%);
+    grid-template-columns: repeat(3, 32%);
     column-gap: 5px;
     row-gap: 10px;
   }
